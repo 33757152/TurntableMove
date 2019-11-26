@@ -14,6 +14,7 @@
 		892D9E90238BD70A005E684C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892D9E8F238BD70A005E684C /* Assets.xcassets */; };
 		892D9E93238BD70A005E684C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892D9E91238BD70A005E684C /* LaunchScreen.storyboard */; };
 		892D9E96238BD70A005E684C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D9E95238BD70A005E684C /* main.m */; };
+		892D9E9F238BD72B005E684C /* QriaCircleSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 892D9E9D238BD72B005E684C /* QriaCircleSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		892D9E92238BD70A005E684C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		892D9E94238BD70A005E684C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		892D9E95238BD70A005E684C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		892D9E9D238BD72B005E684C /* QriaCircleSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QriaCircleSelectView.m; sourceTree = "<group>"; };
+		892D9E9E238BD72B005E684C /* QriaCircleSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QriaCircleSelectView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		892D9E82238BD709005E684C /* TurntableMove */ = {
 			isa = PBXGroup;
 			children = (
+				892D9E9C238BD71D005E684C /* New Group */,
 				892D9E83238BD709005E684C /* AppDelegate.h */,
 				892D9E84238BD709005E684C /* AppDelegate.m */,
 				892D9E86238BD709005E684C /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				892D9E95238BD70A005E684C /* main.m */,
 			);
 			path = TurntableMove;
+			sourceTree = "<group>";
+		};
+		892D9E9C238BD71D005E684C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				892D9E9E238BD72B005E684C /* QriaCircleSelectView.h */,
+				892D9E9D238BD72B005E684C /* QriaCircleSelectView.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 			files = (
 				892D9E8B238BD709005E684C /* ViewController.m in Sources */,
 				892D9E85238BD709005E684C /* AppDelegate.m in Sources */,
+				892D9E9F238BD72B005E684C /* QriaCircleSelectView.m in Sources */,
 				892D9E96238BD70A005E684C /* main.m in Sources */,
 				892D9E88238BD709005E684C /* SceneDelegate.m in Sources */,
 			);
